@@ -1,8 +1,8 @@
 import './App.css';
-import QuestionPage from './components/QuestionPage';
+import QuestionPage from './pages/QuestionPage';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import JoinPage from './components/JoinPage';
-import LeaderboardPage from './components/LeaderboardPgae';
+import JoinPage from './pages/JoinPage';
+import LeaderboardPage from './pages/LeaderboardPgae';
 
 const {pages} = {
   "pages": [
